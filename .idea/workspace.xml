@@ -6,8 +6,19 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e7dfbac-f12b-4cdd-bfba-e02effb6a377" name="Default" comment="用户模块开发">
+    <list default="true" id="1e7dfbac-f12b-4cdd-bfba-e02effb6a377" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mmall/dao/CategoryMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/dao/CategoryMapper.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mmall/pojo/Category.java" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/pojo/Category.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mmall/service/IUserService.java" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/service/IUserService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mmall/service/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/service/impl/UserServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/CategoryMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/CategoryMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/dao/CategoryMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/mmall/dao/CategoryMapper.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/pojo/Category.class" afterPath="$PROJECT_DIR$/target/classes/com/mmall/pojo/Category.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mappers/CategoryMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mappers/CategoryMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/mmall/dao/CategoryMapper.class" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/mmall/dao/CategoryMapper.class" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/mmall/pojo/Category.class" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/mmall/pojo/Category.class" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/mappers/CategoryMapper.xml" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/mappers/CategoryMapper.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -60,90 +71,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/controller/portal/UserController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="121" column="5" lean-forward="false" selection-start-line="121" selection-start-column="5" selection-end-line="121" selection-end-column="5" />
-              <folding>
-                <element signature="docComment;class#UserController#0" expanded="false" />
-                <element signature="e#624#635#0" expanded="false" />
-                <element signature="e#753#817#0" expanded="false" />
-                <element signature="method#login#0;class#UserController#0" expanded="false" />
-                <element signature="e#1167#1232#0" expanded="false" />
-                <element signature="method#logout#0;class#UserController#0" expanded="false" />
-                <element signature="e#1428#1495#0" expanded="false" />
-                <element signature="e#1625#1695#0" expanded="false" />
-                <element signature="e#1848#1920#0" expanded="false" />
-                <element signature="method#getUserInfo#0;class#UserController#0" expanded="false" />
-                <element signature="e#2254#2332#0" expanded="false" />
-                <element signature="e#2487#2565#0" expanded="false" />
-                <element signature="method#forgetCheckAnswer#0;class#UserController#0" expanded="false" />
-                <element signature="e#2767#2847#0" expanded="false" />
-                <element signature="method#forgetRestPassword#0;class#UserController#0" expanded="false" />
-                <element signature="e#3074#3147#0" expanded="false" />
-                <element signature="method#resetPassword#0;class#UserController#0" expanded="false" />
-                <element signature="e#3535#3612#0" expanded="false" />
-                <element signature="method#update_information#0;class#UserController#0" expanded="false" />
-                <element signature="e#4301#4375#0" expanded="false" />
-                <element signature="method#get_information#0;class#UserController#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserManageController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/controller/backend/UserManageController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="33" column="52" lean-forward="false" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="52" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IUserService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/service/IUserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="27" column="56" lean-forward="false" selection-start-line="27" selection-start-column="56" selection-end-line="27" selection-end-column="56" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/UserServiceImpl.java">
+      <file leaf-file-name="Const.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/common/Const.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="69" column="70" lean-forward="false" selection-start-line="69" selection-start-column="70" selection-end-line="69" selection-end-column="70" />
-              <folding>
-                <element signature="docComment;class#UserServiceImpl#0" expanded="false" />
-                <element signature="method#login#0;class#UserServiceImpl#0" expanded="false" />
-                <element signature="method#register#0;class#UserServiceImpl#0" expanded="false" />
-                <element signature="e#1322#1388#0" expanded="false" />
-                <element signature="e#1848#1904#0" expanded="false" />
-                <element signature="method#selectQuestion#0;class#UserServiceImpl#0" expanded="false" />
-                <element signature="method#checkAnswer#0;class#UserServiceImpl#0" expanded="false" />
-                <element signature="method#forgetResetPassword#0;class#UserServiceImpl#0" expanded="false" />
-                <element signature="method#resetPassword#0;class#UserServiceImpl#0" expanded="false" />
-                <element signature="method#updateInformation#0;class#UserServiceImpl#0" expanded="false" />
-                <element signature="e#6339#6356#0" expanded="false" />
-                <element signature="method#getInformation#0;class#UserServiceImpl#0" expanded="false" />
-              </folding>
+              <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/dao/UserMapper.java">
+      <file leaf-file-name="ResponseCode.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/common/ResponseCode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="138">
+              <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -154,6 +96,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -182,7 +125,6 @@
         <option value="$PROJECT_DIR$/src/main/resources/mappers/PayInfoMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/mappers/ProductMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/mappers/ShippingMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/mappers/CategoryMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/datasource.properties" />
@@ -197,11 +139,17 @@
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/common/TokenCache.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/dao/UserMapper.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mappers/UserMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mmall/service/IUserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mmall/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/controller/backend/UserManageController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/controller/portal/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/service/IUserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/dao/CategoryMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mappers/CategoryMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/controller/backend/CategoryManageController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/service/ICategoryService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/service/impl/CategoryServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/pojo/Category.java" />
       </list>
     </option>
   </component>
@@ -275,9 +223,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -449,33 +394,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="mmall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="mmall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="mmall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="javaws.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mmall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="javaws.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="javax" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -688,7 +614,10 @@
       <workItem from="1522677172043" duration="117000" />
       <workItem from="1522677305759" duration="4903000" />
       <workItem from="1522726359878" duration="597000" />
-      <workItem from="1522735481667" duration="664000" />
+      <workItem from="1522735481667" duration="864000" />
+      <workItem from="1522736366248" duration="4889000" />
+      <workItem from="1522765912391" duration="1187000" />
+      <workItem from="1522805095285" duration="598000" />
     </task>
     <task id="LOCAL-00001" summary="project init commit">
       <created>1522115383394</created>
@@ -725,11 +654,18 @@
       <option name="project" value="LOCAL" />
       <updated>1522735603864</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="用户模块开发">
+      <created>1522736191940</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1522736191940</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36766000" />
+    <option name="totallyTimeSpent" value="43640000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -750,11 +686,11 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2161235" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4974271" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8233276" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6106346" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26096824" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.301059" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48370498" sideWeight="0.4969743" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -813,55 +749,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/dao/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/pojo/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="25" lean-forward="false" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="8" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="247" column="19" lean-forward="false" selection-start-line="247" selection-start-column="19" selection-end-line="247" selection-end-column="19" />
-          <folding>
-            <element signature="n#dependencies#0;n#project#0;n#!!top" expanded="false" />
-            <element signature="n#configuration#0;n#plugin#0;n#plugins#0;n#build#0;n#project#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/generatorConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/datasource.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/dao/CartMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -998,20 +885,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/CategoryMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1116">
-          <caret line="80" column="13" lean-forward="false" selection-start-line="80" selection-start-column="13" selection-end-line="80" selection-end-column="13" />
-          <folding>
-            <marker date="1522113319357" expanded="true" signature="1080:1190" ph="select from mmall_category" />
-            <marker date="1522113319357" expanded="true" signature="1277:1341" ph="delete from mmall_category... " />
-            <marker date="1522113319357" expanded="true" signature="1422:1704" ph="insert into mmall_category... " />
-            <marker date="1522113319357" expanded="true" signature="3047:3684" ph="update mmall_category... " />
-            <marker date="1522113319357" expanded="true" signature="3777:4094" ph="update mmall_category... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/CartMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1222">
@@ -1127,6 +1000,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;class#PropertiesUtil#0" expanded="false" />
+            <element signature="initializer##0;class#PropertiesUtil#0" expanded="false" />
+            <element signature="method#getProperty#0;class#PropertiesUtil#0" expanded="false" />
+            <element signature="method#getProperty#1;class#PropertiesUtil#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1137,23 +1016,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/common/ResponseCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="44" lean-forward="true" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
-          <folding>
-            <element signature="e#443#444#0" expanded="false" />
-            <element signature="e#470#471#0" expanded="false" />
-            <element signature="e#501#502#0" expanded="false" />
-            <element signature="e#528#529#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/common/TokenCache.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-18">
           <caret line="18" column="37" lean-forward="false" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+          <folding>
+            <element signature="docComment;class#TokenCache#0" expanded="false" />
+            <element signature="e#942#943#0" expanded="false" />
+            <element signature="e#984#985#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1253,6 +1124,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="287">
           <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1272,31 +1144,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/common/Const.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="13" column="37" lean-forward="true" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/controller/backend/UserManageController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
           <caret line="33" column="52" lean-forward="false" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/service/IUserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="27" column="56" lean-forward="false" selection-start-line="27" selection-start-column="56" selection-end-line="27" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1304,28 +1155,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="69" column="70" lean-forward="false" selection-start-line="69" selection-start-column="70" selection-end-line="69" selection-end-column="70" />
-          <folding>
-            <element signature="docComment;class#UserServiceImpl#0" expanded="false" />
-            <element signature="method#login#0;class#UserServiceImpl#0" expanded="false" />
-            <element signature="method#register#0;class#UserServiceImpl#0" expanded="false" />
-            <element signature="e#1322#1388#0" expanded="false" />
-            <element signature="e#1848#1904#0" expanded="false" />
-            <element signature="method#selectQuestion#0;class#UserServiceImpl#0" expanded="false" />
-            <element signature="method#checkAnswer#0;class#UserServiceImpl#0" expanded="false" />
-            <element signature="method#forgetResetPassword#0;class#UserServiceImpl#0" expanded="false" />
-            <element signature="method#resetPassword#0;class#UserServiceImpl#0" expanded="false" />
-            <element signature="method#updateInformation#0;class#UserServiceImpl#0" expanded="false" />
-            <element signature="e#6339#6356#0" expanded="false" />
-            <element signature="method#getInformation#0;class#UserServiceImpl#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1356,6 +1185,159 @@
             <element signature="e#4301#4375#0" expanded="false" />
             <element signature="method#get_information#0;class#UserController#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="196" column="52" lean-forward="true" selection-start-line="196" selection-start-column="52" selection-end-line="196" selection-end-column="52" />
+          <folding>
+            <element signature="docComment;class#UserServiceImpl#0" expanded="false" />
+            <element signature="method#login#0;class#UserServiceImpl#0" expanded="false" />
+            <element signature="method#register#0;class#UserServiceImpl#0" expanded="false" />
+            <element signature="e#1322#1388#0" expanded="false" />
+            <element signature="e#1848#1904#0" expanded="false" />
+            <element signature="method#checkValid#0;class#UserServiceImpl#0" expanded="false" />
+            <element signature="method#selectQuestion#0;class#UserServiceImpl#0" expanded="false" />
+            <element signature="method#checkAnswer#0;class#UserServiceImpl#0" expanded="false" />
+            <element signature="method#forgetResetPassword#0;class#UserServiceImpl#0" expanded="false" />
+            <element signature="method#resetPassword#0;class#UserServiceImpl#0" expanded="false" />
+            <element signature="method#updateInformation#0;class#UserServiceImpl#0" expanded="false" />
+            <element signature="e#6339#6356#0" expanded="false" />
+            <element signature="method#getInformation#0;class#UserServiceImpl#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/service/IUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="29" column="45" lean-forward="false" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/CategoryMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="122" column="23" lean-forward="true" selection-start-line="122" selection-start-column="23" selection-end-line="122" selection-end-column="23" />
+          <folding>
+            <element signature="n#resultMap#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#constructor#0;n#resultMap#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#sql#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#select#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#delete#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#insert#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#trim#0;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#0;n#trim#0;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#1;n#trim#0;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#2;n#trim#0;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#3;n#trim#0;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#4;n#trim#0;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#5;n#trim#0;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#6;n#trim#0;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#trim#1;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#0;n#trim#1;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#1;n#trim#1;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#2;n#trim#1;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#3;n#trim#1;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#4;n#trim#1;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#5;n#trim#1;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#6;n#trim#1;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#update#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#set#0;n#update#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#0;n#set#0;n#update#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#1;n#set#0;n#update#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#2;n#set#0;n#update#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#3;n#set#0;n#update#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#4;n#set#0;n#update#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#5;n#set#0;n#update#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#update#1;n#mapper#0;n#!!top" expanded="false" />
+            <marker date="1522737868414" expanded="true" signature="4207:4311" ph="select from mmall_category" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/service/ICategoryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="84" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/dao/CategoryMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="41" lean-forward="true" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/pojo/Category.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="94" column="0" lean-forward="false" selection-start-line="94" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/20.0/guava-20.0.jar!/com/google/common/collect/Sets.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="41" column="19" lean-forward="false" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/CategoryServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-36">
+          <caret line="46" column="81" lean-forward="true" selection-start-line="46" selection-start-column="81" selection-end-line="46" selection-end-column="81" />
+          <folding>
+            <element signature="docComment;class#CategoryServiceImpl#0" expanded="false" />
+            <element signature="method#addCategory#0;class#CategoryServiceImpl#0" expanded="false" />
+            <element signature="method#getChildrenParallelCategory#0;class#CategoryServiceImpl#0" expanded="false" />
+            <element signature="docComment;method#selectCategoryAndChildrenById#0;class#CategoryServiceImpl#0" expanded="false" />
+            <element signature="method#selectCategoryAndChildrenById#0;class#CategoryServiceImpl#0" expanded="false" />
+            <element signature="method#findChildCategory#0;class#CategoryServiceImpl#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/controller/backend/CategoryManageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="51" column="26" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;class#CategoryManageController#0" expanded="false" />
+            <element signature="e#667#678#0" expanded="false" />
+            <element signature="method#addCategory#0;class#CategoryManageController#0" expanded="false" />
+            <element signature="e#1389#1395#0" expanded="false" />
+            <element signature="method#setCategoryName#0;class#CategoryManageController#0" expanded="false" />
+            <element signature="method#getChildrenParallelCategory#0;class#CategoryManageController#0" expanded="false" />
+            <element signature="method#getCategoryAndDeepChildrenCategory#0;class#CategoryManageController#0" expanded="false" />
+            <element signature="e#3487#3507#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/common/Const.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/common/ResponseCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
