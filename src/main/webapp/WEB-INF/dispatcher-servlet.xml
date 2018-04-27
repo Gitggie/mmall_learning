@@ -8,10 +8,23 @@
 	http://www.springframework.org/schema/mvc
 	http://www.springframework.org/schema/mvc/spring-mvc.xsd">
 
+    <!--spring可以自动去扫描base-package下面的包或子包下面的Java文件，
+    如果扫描到有Spring的相关注解的类，则把这些类注册为Spring的bean。-->
     <context:component-scan base-package="com.mmall" annotation-config="true"/>
 
+    <!--会自动注册RequestMappingHandlerMapping与RequestMappingHandlerAdapter两个Bean,
+    这是Spring MVC为@Controller分发请求所必需的，
+    并且提供了数据绑定支持， @NumberFormatAnnotation支持，@DateTimeFormat支持,
+    @Valid支持读写XML的支持（JAXB）和读写JSON的支持（默认Jackson）等功能。-->
     <mvc:annotation-driven>
+
+        <!--Controller返回的对象通过适当的转换器转为指定的格式（默认是json格式）-->
+        <!--springmvc安装了RequestMappingHandlerAdapter做为HandlerAdapter的组件实现类，
+        RequestMappingHandlerAdapter的属性messageConverters可以是多个HttpMessageConverter的实现类。-->
+        <!--以下两个bean都是HttpMessageConverter<T>的实现类-->
         <mvc:message-converters>
+
+            <!--将请求信息转换为字符串,T为String，可读取所有媒体类型(*/*)-->
             <bean class="org.springframework.http.converter.StringHttpMessageConverter">
                 <property name="supportedMediaTypes">
                     <list>
@@ -20,6 +33,14 @@
                     </list>
                 </property>
             </bean>
+
+            <!--利用jackson的ObjectMapper读写Json数据，T为Object，默认可读取application/json，响应媒体类型为application/json
+            可通过supportedMediaTypes属性指定媒体类型,并且可以指定编码类型，所以如果遇到乱码的情况可以来检查此处的编码配置是否正确。-->
+            <!--写MappingJacksonHttpMessageConverter会报deprecated，所以改为MappingJackson2HttpMessageConverter
+            但是这样会报错，没细看，不知道为什么-->
+            <!--处理流程梳理：springmvc根据requestBody的类型查找匹配的HttpMessageConverter,比如我们请求的是json对象字符串，会匹配到
+            MappingJackson2HttpMessageConverter，他会自动把json对象字符串解析为java类，并把结果赋值给controller中@requestBody修饰的参数
+            @responseBody也在这里完成json数据的转换-->
             <bean class="org.springframework.http.converter.json.MappingJacksonHttpMessageConverter">
                 <property name="supportedMediaTypes">
                     <list>

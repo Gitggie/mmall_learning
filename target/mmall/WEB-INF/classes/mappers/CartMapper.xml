@@ -158,6 +158,8 @@
     </update>
 
     <select id="selectCartProductCount" parameterType="int" resultType="int">
+        --IFNULL(expr1,expr2)如果 expr1 不是 NULL，IFNULL() 返回 expr1，否则它返回 expr2。
+        --todo as count 怎么理解？返回int
         select IFNULL(sum(quantity),0) as count from mmall_cart where user_id = #{userId}
     </select>
 

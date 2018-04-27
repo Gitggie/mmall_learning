@@ -22,6 +22,7 @@ public class FTPUtil {
     private static String ftpUser = PropertiesUtil.getProperty("ftp.user");
     private static String ftpPass = PropertiesUtil.getProperty("ftp.pass");
 
+    //参数：ip，端口，用户名，密码
     public FTPUtil(String ip, int port, String user, String pwd) {
         this.ip = ip;
         this.port = port;
@@ -29,19 +30,22 @@ public class FTPUtil {
         this.pwd = pwd;
     }
 
+
     public static boolean uploadFile(List<File> fileList) throws IOException {
+        //新建FTPUtil类对象ftpUtil
         FTPUtil ftpUtil = new FTPUtil(ftpIp, 21, ftpUser, ftpPass);
         logger.info("开始连接ftp服务器");
+        //
         boolean result = ftpUtil.uploadFile("img", fileList);
         logger.info("开始连接ftp服务器,结束上传,上传结果:{}");
         return result;
     }
 
-
+    //上传本地的文件到服务器
     private boolean uploadFile(String remotePath, List<File> fileList) throws IOException {
         boolean uploaded = true;
         FileInputStream fis = null;
-        //连接FTP服务器
+        //连接FTP服务器，成了的话
         if (connectServer(this.ip, this.port, this.user, this.pwd)) {
             try {
                 ftpClient.changeWorkingDirectory(remotePath);
@@ -50,7 +54,9 @@ public class FTPUtil {
                 ftpClient.setFileType(FTPClient.BINARY_FILE_TYPE);
                 ftpClient.enterLocalPassiveMode();
                 for (File fileItem : fileList) {
+                    //将文件变为流
                     fis = new FileInputStream(fileItem);
+                    //将流写到服务器
                     ftpClient.storeFile(fileItem.getName(), fis);
                 }
 
@@ -66,13 +72,14 @@ public class FTPUtil {
         return uploaded;
     }
 
-
+    //连接成功就返回true
     private boolean connectServer(String ip, int port, String user, String pwd) {
 
         boolean isSuccess = false;
         ftpClient = new FTPClient();
         try {
             ftpClient.connect(ip);
+            //login返回Boolean型
             isSuccess = ftpClient.login(user, pwd);
         } catch (IOException e) {
             logger.error("连接FTP服务器异常", e);

@@ -200,6 +200,7 @@ public class OrderServiceImpl implements IOrderService {
         orderVo.setOrderNo(order.getOrderNo());
         orderVo.setPayment(order.getPayment());
         orderVo.setPaymentType(order.getPaymentType());
+        //todo getValue?
         orderVo.setPaymentTypeDesc(Const.PaymentTypeEnum.codeOf(order.getPaymentType()).getValue());
 
         orderVo.setPostage(order.getPostage());
@@ -269,6 +270,7 @@ public class OrderServiceImpl implements IOrderService {
         if (order.getStatus() != Const.OrderStatusEnum.NO_PAY.getCode()) {
             return ServerResponse.createByErrorMessage("已付款,无法取消订单");
         }
+        //todo 直接order.set不行吗？
         Order updateOrder = new Order();
         updateOrder.setId(order.getId());
         updateOrder.setStatus(Const.OrderStatusEnum.CANCELED.getCode());
@@ -295,7 +297,8 @@ public class OrderServiceImpl implements IOrderService {
 
         BigDecimal payment = new BigDecimal("0");
         for (OrderItem orderItem : orderItemList) {
-            payment = BigDecimalUtil.add(payment.doubleValue(), orderItem.getTotalPrice().doubleValue());
+            payment = BigDecimalUtil.add(payment.doubleValue(),
+                    orderItem.getTotalPrice().doubleValue());
             orderItemVoList.add(assembleOrderItemVo(orderItem));
         }
         orderProductVo.setProductTotalPrice(payment);

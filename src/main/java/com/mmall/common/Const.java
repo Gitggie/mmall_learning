@@ -25,12 +25,12 @@ public class Const {
         String LIMIT_NUM_FAIL = "LIMIT_NUM_FAIL";
         String LIMIT_NUM_SUCCESS = "LIMIT_NUM_SUCCESS";
     }
-
+    //todo 类里面又弄了一个接口，里面放的是变量吧，但看起来像常量
     public interface Role {
         int ROLE_CUSTOMER = 0; //普通用户
         int ROLE_ADMIN = 1;//管理员
     }
-
+    //todo 类里新建枚举类，里有构造方法
     public enum ProductStatusEnum {
         ON_SALE(1, "在线");
         private String value;
@@ -94,6 +94,7 @@ public class Const {
         String RESPONSE_FAILED = "failed";
     }
 
+
     public enum PayPlatformEnum {
         ALIPAY(1, "支付宝");
 
@@ -145,3 +146,12 @@ public class Const {
 
     }
 }
+
+// package com.mmall.common;
+//
+// public class Const {
+//     public static final String CURRENT_USER = "currentUser";
+//     public static final String EMAIL = "email";
+//     public static final String USERNAME = "username";
+//
+// }

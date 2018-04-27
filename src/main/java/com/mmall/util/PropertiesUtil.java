@@ -21,7 +21,8 @@ public class PropertiesUtil {
         String fileName = "mmall.properties";
         props = new Properties();
         try {
-            props.load(new InputStreamReader(PropertiesUtil.class.getClassLoader().getResourceAsStream(fileName), "UTF-8"));
+            props.load(new InputStreamReader(PropertiesUtil.class.getClassLoader().
+                    getResourceAsStream(fileName), "UTF-8"));
         } catch (IOException e) {
             logger.error("配置文件读取异常", e);
         }
@@ -32,7 +33,7 @@ public class PropertiesUtil {
         if (StringUtils.isBlank(value)) {
             return null;
         }
-        return value.trim();
+            return value.trim();
     }
 
     public static String getProperty(String key, String defaultValue) {

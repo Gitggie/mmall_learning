@@ -96,6 +96,7 @@ public class UserController {
 
     @RequestMapping(value = "update_information.do", method = RequestMethod.POST)
     @ResponseBody
+    //虽然传入的参数不是完整的user，但也可以用user当参数
     public ServerResponse<User> update_information(HttpSession session, User user) {
         User currentUser = (User) session.getAttribute(Const.CURRENT_USER);
         if (currentUser == null) {
@@ -121,3 +122,57 @@ public class UserController {
         return iUserService.getInformation(currentUser.getId());
     }
 }
+// package com.mmall.controller.portal;
+//
+// import com.mmall.common.Const;
+// import com.mmall.common.ServerResponse;
+// import com.mmall.dao.UserMapper;
+// import com.mmall.pojo.User;
+// import com.mmall.service.IUserService;
+// import org.springframework.beans.factory.annotation.Autowired;
+// import org.springframework.stereotype.Controller;
+// import org.springframework.web.bind.annotation.RequestMapping;
+// import org.springframework.web.bind.annotation.RequestMethod;
+// import org.springframework.web.bind.annotation.ResponseBody;
+//
+// import javax.servlet.http.HttpSession;
+//
+// @Controller
+// @RequestMapping("/user/")
+// public class UserController {
+//
+//     @Autowired
+//     private IUserService iUserService;
+//
+//     @RequestMapping(value = "login.do", method = RequestMethod.POST)
+//
+//     //一般在异步获取数据时使用（ajax）
+//     //使用此注解后，数据不会再走视图处理器，而是直接将数据写入输入流中，他的效果等于通过response对象输出指定格式的数据
+//     //使用 @RequestMapping后，返回值通常解析为跳转路径，加了@ResponseBody之后，直接返回json数据
+//     //扩展：@RequestBody接受的是json对象的字符串
+//     @ResponseBody
+//     public ServerResponse<User> login(String username, String password, HttpSession session) {
+//         ServerResponse<User> response = iUserService.login(username, password);
+//         //返回的response有三种可能，status两次为1，一次为0
+//         if (response.isSuccess()) {
+//             session.setAttribute(Const.CURRENT_USER, response.getData());
+//         }
+//         return response;
+//     }
+//
+//     @RequestMapping(value = "logout.do", method = RequestMethod.POST)
+//     @ResponseBody
+//     //为什么返回String？
+//     public ServerResponse<String> logout(HttpSession session) {
+//         session.removeAttribute(Const.CURRENT_USER);
+//         //为什么用createBySuccess()？
+//         return ServerResponse.createBySuccess();
+//     }
+//
+//     @RequestMapping(value = "register.do", method = RequestMethod.POST)
+//     @ResponseBody
+//     public ServerResponse register(String username, String password, String email, Integer phone, String question, String answer) {
+//         UserMapper.
+//     }
+//
+// }

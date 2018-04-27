@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="com.mmall.dao.UserMapper">
+    <!--外部 resultMap -->
     <resultMap id="BaseResultMap" type="com.mmall.pojo.User">
+        <!--实例化的时候通过构造器将结果集注入到类中
+        or类在实例化时，用来注入结果到构造方法中-->
         <constructor>
+            <!--idArg– ID 参数; 将结果集标记为 ID，以方便全局调用or标记结果作为 ID 可以帮助提高整体效能
+            arg–注入构造器的结果集or注入到构造方法的一个普通结果-->
             <idArg column="id" jdbcType="INTEGER" javaType="java.lang.Integer"/>
             <arg column="username" jdbcType="VARCHAR" javaType="java.lang.String"/>
             <arg column="password" jdbcType="VARCHAR" javaType="java.lang.String"/>
@@ -15,10 +20,12 @@
             <arg column="update_time" jdbcType="TIMESTAMP" javaType="java.util.Date"/>
         </constructor>
     </resultMap>
+    <!--sql的重用，可在任何SQL 语句中重用该片段。-->
     <sql id="Base_Column_List">
     id, username, password, email, phone, question, answer, role, create_time, update_time
   </sql>
     <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer">
+        <!--自动生成的#{}有jdbcType，自己写的没有，什么影响-->
         select
         <include refid="Base_Column_List"/>
         from mmall_user
@@ -108,6 +115,7 @@
     <update id="updateByPrimaryKeySelective" parameterType="com.mmall.pojo.User">
         update mmall_user
         <set>
+            <!--test后的username就是你传入的username，即当传入的username不是空时，才会执行接下来的语句-->
             <if test="username != null">
                 username = #{username,jdbcType=VARCHAR},
             </if>
@@ -164,6 +172,7 @@
 
     <select id="selectLogin" resultMap="BaseResultMap" parameterType="map">
         SELECT
+        <!--sql的重用，会自动把上面id=Base_Column_List的代码贴过来-->
         <include refid="Base_Column_List"/>
         from mmall_user
         where username = #{username}
@@ -171,38 +180,55 @@
     </select>
 
     <select id="selectQuestionByUsername" resultType="string" parameterType="string">
-        select
-        question
-        from mmall_user
-        where username = #{username}
+    select
+    question
+    from mmall_user
+    where username = #{username}
     </select>
 
     <select id="checkAnswer" resultType="int" parameterType="map">
-        SELECT
-        count(1)
-        from mmall_user
-        where username=#{username}
-        and question = #{question}
-        and answer = #{answer}
-    </select>
+    SELECT
+    count(1)
+    from mmall_user
+    where username=#{username}
+    and question = #{question}
+    and answer = #{answer}
+</select>
 
     <update id="updatePasswordByUsername" parameterType="map">
-        update mmall_user
-        SET password = #{passwordNew},update_time = now()
-        where username = #{username}
-    </update>
+    update mmall_user
+    SET password = #{passwordNew},update_time = now()
+    where username = #{username}
+</update>
 
     <select id="checkPassword" resultType="int" parameterType="map">
-        SELECT
-        count(1)
-        from mmall_user
-        where password = #{password}
-        and id = #{userId}
-    </select>
+    SELECT
+    count(1)
+    from mmall_user
+    where password = #{password}
+    and id = #{userId}
+</select>
 
     <select id="checkEmailByUserId" resultType="int" parameterType="map">
-        select count(1) from mmall_user
-        where email = #{email}
-        and id != #{userId}
+    select count(1) from mmall_user
+    where email = #{email}
+    and id != #{userId}
+</select>
+
+    <!--<select id="checkUsername" parameterType="string" resultType="int">
+        SELECT
+        COUNT (1)
+        FROM mmall_user
+        WHERE
+        username=#{username}
     </select>
+
+    <select id="selectLogin" parameterType="map" resultType="BaseResultMap">
+        SELECT
+        <include refid="Base_Column_List"/>
+        FROM mmall_user
+        WHERE
+        username=#{username} AND password=#{password}
+    </select>-->
+
 </mapper>

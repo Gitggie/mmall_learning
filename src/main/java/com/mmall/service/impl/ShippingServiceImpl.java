@@ -26,6 +26,8 @@ public class ShippingServiceImpl implements IShippingService {
     private ShippingMapper shippingMapper;
 
     public ServerResponse add(Integer userId, Shipping shipping) {
+        //todo 突然冒出一问题：shipping只是被声明了，没有被实例化吧，为什么可以调用类方法？？？
+        //传入的shipping本来就有用户id，那么这句话的意义到底是什么？
         shipping.setUserId(userId);
         int rowCount = shippingMapper.insert(shipping);
         if (rowCount > 0) {
@@ -45,6 +47,10 @@ public class ShippingServiceImpl implements IShippingService {
     }
 
     public ServerResponse update(Integer userId, Shipping shipping) {
+        //todo 不理解，你获取的shipping本来就有用户id呀，为什么还要设置？保证你改的是自己的地址
+        //不不，我debug了下，发现到这步shipping里的userID是null啊，why?
+        //傻逼呀，你根本没传用户id
+        //但为什么你就不传呢？不是都已经获得用户session了吗？
         shipping.setUserId(userId);
         int rowCount = shippingMapper.updateByShipping(shipping);
         if (rowCount > 0) {

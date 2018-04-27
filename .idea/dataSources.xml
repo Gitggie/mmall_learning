@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="mmall_learning@39.107.103.103" uuid="f8cd05d3-8855-4259-ac20-2ca235bc4e6e">
+    <data-source source="LOCAL" name="mmall@39.107.103.103" uuid="ce495515-61c7-4fe9-8916-d59da29be2df">
       <driver-ref>mysql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://39.107.103.103:3306/mmall_learning</jdbc-url>
+      <jdbc-url>jdbc:mysql://39.107.103.103:3306/mmall</jdbc-url>
       <driver-properties>
         <property name="autoReconnect" value="true" />
         <property name="zeroDateTimeBehavior" value="convertToNull" />

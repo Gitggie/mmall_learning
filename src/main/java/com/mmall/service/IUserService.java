@@ -29,3 +29,11 @@ public interface IUserService {
 
     ServerResponse checkAdminRole(User user);
 }
+// package com.mmall.service;
+//
+// import com.mmall.common.ServerResponse;
+//
+// public interface IUserService {
+//     ServerResponse login(String username, String password);
+//
+// }
