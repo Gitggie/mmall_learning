@@ -10,7 +10,10 @@
 
     <!--spring可以自动去扫描base-package下面的包或子包下面的Java文件，
     如果扫描到有Spring的相关注解的类，则把这些类注册为Spring的bean。-->
-    <context:component-scan base-package="com.mmall" annotation-config="true"/>
+    <!--二期：把默认扫描关闭，只扫controller-->
+    <context:component-scan base-package="com.mmall.controller" annotation-config="true" use-default-filters="false">
+        <context:include-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
+    </context:component-scan>
 
     <!--会自动注册RequestMappingHandlerMapping与RequestMappingHandlerAdapter两个Bean,
     这是Spring MVC为@Controller分发请求所必需的，
@@ -59,5 +62,19 @@
         <property name="defaultEncoding" value="UTF-8"></property>
     </bean>
 
+    <mvc:interceptors>
+        <!-- 定义在这里的，所有的都会拦截-->
+        <mvc:interceptor>
+            <!--manage/a.do  /manage/*-->
+            <!--manage/b.do  /manage/*-->
+            <!--manage/product/save.do /manage/**-->
+            <!--manage/order/detail.do /manage/**-->
+            <mvc:mapping path="/manage/**"/>
+            <!--另一种方法写在拦截器中-->
+            <!--<mvc:exclude-mapping path="/manage/user/login.do"/>-->
+            <bean class="com.mmall.controller.common.interceptor.AuthorityInterceptor"/>
+        </mvc:interceptor>
+
+    </mvc:interceptors>
 
 </beans>
