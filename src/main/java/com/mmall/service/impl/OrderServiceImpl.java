@@ -565,7 +565,8 @@ public class OrderServiceImpl implements IOrderService {
     public void closeOrder(int hour) {
 
         Date closeDateTime = DateUtils.addHours(new Date(), -hour);
-        List<Order> orderList = orderMapper.selectOrderStatusByCreateTime(Const.OrderStatusEnum.NO_PAY.getCode(), DateTimeUtil.dateToStr(closeDateTime));
+        List<Order> orderList = orderMapper.selectOrderStatusByCreateTime(Const.OrderStatusEnum.NO_PAY.getCode(),
+                DateTimeUtil.dateToStr(closeDateTime));
 
         for (Order order : orderList) {
             List<OrderItem> orderItemList = orderItemMapper.getByOrderNo(order.getOrderNo());
