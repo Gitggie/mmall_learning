@@ -130,52 +130,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="OrderServiceImpl.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/OrderServiceImpl.java">
+      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/controller/portal/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="867">
-              <caret line="536" column="0" lean-forward="false" selection-start-line="536" selection-start-column="0" selection-end-line="537" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OrderController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/controller/portal/OrderController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="35" column="14" lean-forward="false" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
+            <state relative-caret-position="540">
+              <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
               <folding>
-                <element signature="docComment;class#OrderController#0" expanded="false" />
-                <element signature="e#955#966#0" expanded="false" />
-                <element signature="e#1175#1203#0" expanded="false" />
-                <element signature="method#create#0;class#OrderController#0" expanded="false" />
-                <element signature="e#1634#1662#0" expanded="false" />
-                <element signature="method#cancel#0;class#OrderController#0" expanded="false" />
-                <element signature="e#2079#2123#0" expanded="false" />
-                <element signature="method#getOrderCartProduct#0;class#OrderController#0" expanded="false" />
-                <element signature="e#2543#2571#0" expanded="false" />
-                <element signature="method#detail#0;class#OrderController#0" expanded="false" />
-                <element signature="e#2996#3022#0" expanded="false" />
-                <element signature="method#list#0;class#OrderController#0" expanded="false" />
-                <element signature="e#3637#3662#0" expanded="false" />
-                <element signature="method#pay#0;class#OrderController#0" expanded="false" />
-                <element signature="e#4193#4230#0" expanded="false" />
-                <element signature="method#alipayCallback#0;class#OrderController#0" expanded="false" />
-                <element signature="e#5523#5536#0" expanded="false" />
-                <element signature="e#5799#5843#0" expanded="false" />
-                <element signature="method#queryOrderPayStatus#0;class#OrderController#0" expanded="false" />
+                <marker date="1527586187609" expanded="true" signature="4576:4810" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IOrderService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/service/IOrderService.java">
+      <file leaf-file-name="FTPUtil.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/util/FTPUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-              <folding />
+            <state relative-caret-position="407">
+              <caret line="59" column="65" lean-forward="false" selection-start-line="59" selection-start-column="65" selection-end-line="59" selection-end-column="65" />
+              <folding>
+                <marker date="1527586187785" expanded="true" signature="2678:2744" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -308,6 +282,7 @@
       <select />
     </treeState>
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="676" />
     <option name="width" value="697" />
@@ -381,7 +356,7 @@
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <flattenPackages ProjectPane="false" />
       <showMembers />
       <showModules />
@@ -395,6 +370,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -637,9 +613,8 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1166,7 +1141,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="295915000" />
+    <option name="totallyTimeSpent" value="295916000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1181,12 +1156,46 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8037866" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5111876" sideWeight="0.5136157" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32702237" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33888048" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.9382504" sideWeight="0.494705" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Tail" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26172465" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31240544" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.848537" sideWeight="0.48638427" order="18" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32874355" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32874355" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1273666" sideWeight="0.4924357" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6316695" sideWeight="0.49394855" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.50774527" sideWeight="0.48865354" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel remote servers log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27272728" sideWeight="0.50907713" order="15" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30030257" sideWeight="0.49399656" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48364887" sideWeight="0.4969743" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30559757" sideWeight="0.50600344" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8044597" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.65180105" sideWeight="0.5060514" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32761577" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33888048" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.9382504" sideWeight="0.494705" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26172465" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43948564" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1199,25 +1208,21 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4974271" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41337907" sideWeight="0.4924357" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="CheckStyle" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38593483" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6106346" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel remote servers log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27272728" sideWeight="0.50907713" order="15" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31467474" sideWeight="0.49399656" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48370498" sideWeight="0.4969743" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30559757" sideWeight="0.50600344" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="CheckStyle" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38593483" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1269,7 +1274,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/CartServiceImpl.java</url>
           <line>163</line>
-          <properties class="com.mmall.service.impl.CartServiceImpl" method="getCartVoLimit">
+          <properties class="com.mmall.service.impl.CartServiceImpl">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="11" />
@@ -1277,7 +1282,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/CartServiceImpl.java</url>
           <line>89</line>
-          <properties class="com.mmall.service.impl.CartServiceImpl" method="list">
+          <properties class="com.mmall.service.impl.CartServiceImpl">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="12" />
@@ -1285,7 +1290,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/ShippingServiceImpl.java</url>
           <line>27</line>
-          <properties class="com.mmall.service.impl.ShippingServiceImpl" method="add">
+          <properties class="com.mmall.service.impl.ShippingServiceImpl">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="19" />
@@ -1293,7 +1298,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/ShippingServiceImpl.java</url>
           <line>40</line>
-          <properties class="com.mmall.service.impl.ShippingServiceImpl" method="del">
+          <properties class="com.mmall.service.impl.ShippingServiceImpl">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="20" />
@@ -1301,7 +1306,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/ShippingServiceImpl.java</url>
           <line>48</line>
-          <properties class="com.mmall.service.impl.ShippingServiceImpl" method="update">
+          <properties class="com.mmall.service.impl.ShippingServiceImpl">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="21" />
@@ -1309,7 +1314,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/ShippingServiceImpl.java</url>
           <line>61</line>
-          <properties class="com.mmall.service.impl.ShippingServiceImpl" method="select">
+          <properties class="com.mmall.service.impl.ShippingServiceImpl">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="22" />
@@ -1317,7 +1322,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/ShippingServiceImpl.java</url>
           <line>69</line>
-          <properties class="com.mmall.service.impl.ShippingServiceImpl" method="list">
+          <properties class="com.mmall.service.impl.ShippingServiceImpl">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="23" />
@@ -1325,7 +1330,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/UserServiceImpl.java</url>
           <line>42</line>
-          <properties class="com.mmall.service.impl.UserServiceImpl" method="register">
+          <properties class="com.mmall.service.impl.UserServiceImpl">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="26" />
@@ -1333,7 +1338,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/UserServiceImpl.java</url>
           <line>73</line>
-          <properties class="com.mmall.service.impl.UserServiceImpl" method="checkValid">
+          <properties class="com.mmall.service.impl.UserServiceImpl">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="27" />
@@ -1341,7 +1346,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/UserServiceImpl.java</url>
           <line>98</line>
-          <properties class="com.mmall.service.impl.UserServiceImpl" method="selectQuestion">
+          <properties class="com.mmall.service.impl.UserServiceImpl">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="28" />
@@ -1349,7 +1354,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/UserServiceImpl.java</url>
           <line>152</line>
-          <properties class="com.mmall.service.impl.UserServiceImpl" method="resetPassword">
+          <properties class="com.mmall.service.impl.UserServiceImpl">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="31" />
@@ -1357,7 +1362,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/UserServiceImpl.java</url>
           <line>167</line>
-          <properties class="com.mmall.service.impl.UserServiceImpl" method="updateInformation">
+          <properties class="com.mmall.service.impl.UserServiceImpl">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="32" />
@@ -1365,7 +1370,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/UserServiceImpl.java</url>
           <line>189</line>
-          <properties class="com.mmall.service.impl.UserServiceImpl" method="getInformation">
+          <properties class="com.mmall.service.impl.UserServiceImpl">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="33" />
@@ -1373,7 +1378,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/UserServiceImpl.java</url>
           <line>123</line>
-          <properties class="com.mmall.service.impl.UserServiceImpl" method="forgetResetPassword">
+          <properties class="com.mmall.service.impl.UserServiceImpl">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="35" />
@@ -1381,7 +1386,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/UserServiceImpl.java</url>
           <line>111</line>
-          <properties class="com.mmall.service.impl.UserServiceImpl" method="checkAnswer">
+          <properties class="com.mmall.service.impl.UserServiceImpl">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="36" />
@@ -1389,7 +1394,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/controller/portal/UserController.java</url>
           <line>88</line>
-          <properties class="com.mmall.controller.portal.UserController" method="resetPassword">
+          <properties class="com.mmall.controller.portal.UserController">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="37" />
@@ -1397,7 +1402,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/controller/portal/UserController.java</url>
           <line>99</line>
-          <properties class="com.mmall.controller.portal.UserController" method="update_information">
+          <properties class="com.mmall.controller.portal.UserController">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="38" />
@@ -1405,7 +1410,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/controller/portal/UserController.java</url>
           <line>76</line>
-          <properties class="com.mmall.controller.portal.UserController" method="forgetCheckAnswer">
+          <properties class="com.mmall.controller.portal.UserController">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="39" />
@@ -1413,7 +1418,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/controller/portal/UserController.java</url>
           <line>82</line>
-          <properties class="com.mmall.controller.portal.UserController" method="forgetRestPassword">
+          <properties class="com.mmall.controller.portal.UserController">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="40" />
@@ -1421,7 +1426,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/controller/portal/UserController.java</url>
           <line>70</line>
-          <properties class="com.mmall.controller.portal.UserController" method="forgetGetQuestion">
+          <properties class="com.mmall.controller.portal.UserController">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="41" />
@@ -1429,7 +1434,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/controller/portal/UserController.java</url>
           <line>60</line>
-          <properties class="com.mmall.controller.portal.UserController" method="getUserInfo">
+          <properties class="com.mmall.controller.portal.UserController">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="42" />
@@ -1437,7 +1442,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/controller/portal/UserController.java</url>
           <line>54</line>
-          <properties class="com.mmall.controller.portal.UserController" method="checkValid">
+          <properties class="com.mmall.controller.portal.UserController">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="43" />
@@ -1445,7 +1450,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/controller/portal/UserController.java</url>
           <line>48</line>
-          <properties class="com.mmall.controller.portal.UserController" method="register">
+          <properties class="com.mmall.controller.portal.UserController">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="44" />
@@ -1453,7 +1458,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/controller/portal/UserController.java</url>
           <line>116</line>
-          <properties class="com.mmall.controller.portal.UserController" method="get_information">
+          <properties class="com.mmall.controller.portal.UserController">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="47" />
@@ -1461,7 +1466,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/CategoryServiceImpl.java</url>
           <line>46</line>
-          <properties class="com.mmall.service.impl.CategoryServiceImpl" method="updateCategoryName">
+          <properties class="com.mmall.service.impl.CategoryServiceImpl">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="49" />
@@ -1469,7 +1474,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/CategoryServiceImpl.java</url>
           <line>61</line>
-          <properties class="com.mmall.service.impl.CategoryServiceImpl" method="getChildrenParallelCategory">
+          <properties class="com.mmall.service.impl.CategoryServiceImpl">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="50" />
@@ -1477,7 +1482,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/CategoryServiceImpl.java</url>
           <line>31</line>
-          <properties class="com.mmall.service.impl.CategoryServiceImpl" method="addCategory">
+          <properties class="com.mmall.service.impl.CategoryServiceImpl">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="51" />
@@ -1485,7 +1490,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/CategoryServiceImpl.java</url>
           <line>75</line>
-          <properties class="com.mmall.service.impl.CategoryServiceImpl" method="selectCategoryAndChildrenById">
+          <properties class="com.mmall.service.impl.CategoryServiceImpl">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="52" />
@@ -1493,7 +1498,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/CategoryServiceImpl.java</url>
           <line>90</line>
-          <properties class="com.mmall.service.impl.CategoryServiceImpl" method="findChildCategory">
+          <properties class="com.mmall.service.impl.CategoryServiceImpl">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="53" />
@@ -1501,7 +1506,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/UserServiceImpl.java</url>
           <line>207</line>
-          <properties class="com.mmall.service.impl.UserServiceImpl" method="checkAdminRole">
+          <properties class="com.mmall.service.impl.UserServiceImpl">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="54" />
@@ -1509,7 +1514,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/controller/backend/ProductManageController.java</url>
           <line>130</line>
-          <properties class="com.mmall.controller.backend.ProductManageController" method="upload">
+          <properties class="com.mmall.controller.backend.ProductManageController">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="56" />
@@ -1517,7 +1522,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/controller/backend/ProductManageController.java</url>
           <line>156</line>
-          <properties class="com.mmall.controller.backend.ProductManageController" method="richtextImgUpload">
+          <properties class="com.mmall.controller.backend.ProductManageController">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="57" />
@@ -1525,7 +1530,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/controller/backend/ProductManageController.java</url>
           <line>112</line>
-          <properties class="com.mmall.controller.backend.ProductManageController" method="productSearch">
+          <properties class="com.mmall.controller.backend.ProductManageController">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="58" />
@@ -1533,7 +1538,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/controller/backend/ProductManageController.java</url>
           <line>95</line>
-          <properties class="com.mmall.controller.backend.ProductManageController" method="getList">
+          <properties class="com.mmall.controller.backend.ProductManageController">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="60" />
@@ -1541,7 +1546,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/controller/backend/ProductManageController.java</url>
           <line>77</line>
-          <properties class="com.mmall.controller.backend.ProductManageController" method="getDetail">
+          <properties class="com.mmall.controller.backend.ProductManageController">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="61" />
@@ -1549,7 +1554,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/controller/backend/ProductManageController.java</url>
           <line>61</line>
-          <properties class="com.mmall.controller.backend.ProductManageController" method="setSaleStatus">
+          <properties class="com.mmall.controller.backend.ProductManageController">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="62" />
@@ -1557,7 +1562,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/controller/backend/ProductManageController.java</url>
           <line>44</line>
-          <properties class="com.mmall.controller.backend.ProductManageController" method="productSave">
+          <properties class="com.mmall.controller.backend.ProductManageController">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="63" />
@@ -1565,7 +1570,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/FileServiceImpl.java</url>
           <line>27</line>
-          <properties class="com.mmall.service.impl.FileServiceImpl" method="upload">
+          <properties class="com.mmall.service.impl.FileServiceImpl">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="66" />
@@ -1573,7 +1578,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/ProductServiceImpl.java</url>
           <line>142</line>
-          <properties class="com.mmall.service.impl.ProductServiceImpl" method="assembleProductListVo">
+          <properties class="com.mmall.service.impl.ProductServiceImpl">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="67" />
@@ -1581,7 +1586,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/ProductServiceImpl.java</url>
           <line>156</line>
-          <properties class="com.mmall.service.impl.ProductServiceImpl" method="searchProduct">
+          <properties class="com.mmall.service.impl.ProductServiceImpl">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="68" />
@@ -1589,7 +1594,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/ProductServiceImpl.java</url>
           <line>174</line>
-          <properties class="com.mmall.service.impl.ProductServiceImpl" method="getProductDetail">
+          <properties class="com.mmall.service.impl.ProductServiceImpl">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="69" />
@@ -1597,7 +1602,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/ProductServiceImpl.java</url>
           <line>191</line>
-          <properties class="com.mmall.service.impl.ProductServiceImpl" method="getProductByKeywordCategory">
+          <properties class="com.mmall.service.impl.ProductServiceImpl">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="70" />
@@ -1605,7 +1610,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/ProductServiceImpl.java</url>
           <line>124</line>
-          <properties class="com.mmall.service.impl.ProductServiceImpl" method="getProductList">
+          <properties class="com.mmall.service.impl.ProductServiceImpl">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="71" />
@@ -1613,7 +1618,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/ProductServiceImpl.java</url>
           <line>96</line>
-          <properties class="com.mmall.service.impl.ProductServiceImpl" method="assembleProductDetailVo">
+          <properties class="com.mmall.service.impl.ProductServiceImpl">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="72" />
@@ -1621,7 +1626,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/ProductServiceImpl.java</url>
           <line>83</line>
-          <properties class="com.mmall.service.impl.ProductServiceImpl" method="manageProductDetail">
+          <properties class="com.mmall.service.impl.ProductServiceImpl">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="73" />
@@ -1629,7 +1634,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/ProductServiceImpl.java</url>
           <line>68</line>
-          <properties class="com.mmall.service.impl.ProductServiceImpl" method="setSaleStatus">
+          <properties class="com.mmall.service.impl.ProductServiceImpl">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="74" />
@@ -1637,7 +1642,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/ProductServiceImpl.java</url>
           <line>42</line>
-          <properties class="com.mmall.service.impl.ProductServiceImpl" method="saveOrUpdateProduct">
+          <properties class="com.mmall.service.impl.ProductServiceImpl">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="75" />
@@ -1645,7 +1650,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/util/FTPUtil.java</url>
           <line>33</line>
-          <properties class="com.mmall.util.FTPUtil" method="uploadFile">
+          <properties class="com.mmall.util.FTPUtil">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="76" />
@@ -1653,7 +1658,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/util/FTPUtil.java</url>
           <line>75</line>
-          <properties class="com.mmall.util.FTPUtil" method="connectServer">
+          <properties class="com.mmall.util.FTPUtil">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="77" />
@@ -1661,7 +1666,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/util/FTPUtil.java</url>
           <line>44</line>
-          <properties class="com.mmall.util.FTPUtil" method="uploadFile">
+          <properties class="com.mmall.util.FTPUtil">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="78" />
@@ -1669,7 +1674,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/controller/portal/ProductController.java</url>
           <line>33</line>
-          <properties class="com.mmall.controller.portal.ProductController" method="list">
+          <properties class="com.mmall.controller.portal.ProductController">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="79" />
@@ -1677,7 +1682,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/controller/portal/ProductController.java</url>
           <line>27</line>
-          <properties class="com.mmall.controller.portal.ProductController" method="detail">
+          <properties class="com.mmall.controller.portal.ProductController">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="80" />
@@ -1685,7 +1690,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/CartServiceImpl.java</url>
           <line>225</line>
-          <properties class="com.mmall.service.impl.CartServiceImpl" method="getAllCheckedStatus">
+          <properties class="com.mmall.service.impl.CartServiceImpl">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="82" />
@@ -1693,7 +1698,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/CartServiceImpl.java</url>
           <line>41</line>
-          <properties class="com.mmall.service.impl.CartServiceImpl" method="add">
+          <properties class="com.mmall.service.impl.CartServiceImpl">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="83" />
@@ -1701,7 +1706,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/CartServiceImpl.java</url>
           <line>66</line>
-          <properties class="com.mmall.service.impl.CartServiceImpl" method="update">
+          <properties class="com.mmall.service.impl.CartServiceImpl">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="84" />
@@ -1709,7 +1714,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/CartServiceImpl.java</url>
           <line>79</line>
-          <properties class="com.mmall.service.impl.CartServiceImpl" method="deleteProduct">
+          <properties class="com.mmall.service.impl.CartServiceImpl">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="85" />
@@ -1717,7 +1722,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/CartServiceImpl.java</url>
           <line>99</line>
-          <properties class="com.mmall.service.impl.CartServiceImpl" method="getCartProductCount">
+          <properties class="com.mmall.service.impl.CartServiceImpl">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="86" />
@@ -1725,7 +1730,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/CartServiceImpl.java</url>
           <line>94</line>
-          <properties class="com.mmall.service.impl.CartServiceImpl" method="selectOrUnSelect">
+          <properties class="com.mmall.service.impl.CartServiceImpl">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="87" />
@@ -1733,7 +1738,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/controller/portal/CartController.java</url>
           <line>31</line>
-          <properties class="com.mmall.controller.portal.CartController" method="list">
+          <properties class="com.mmall.controller.portal.CartController">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="88" />
@@ -1741,7 +1746,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/controller/portal/CartController.java</url>
           <line>53</line>
-          <properties class="com.mmall.controller.portal.CartController" method="update">
+          <properties class="com.mmall.controller.portal.CartController">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="89" />
@@ -1749,7 +1754,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/controller/portal/CartController.java</url>
           <line>42</line>
-          <properties class="com.mmall.controller.portal.CartController" method="add">
+          <properties class="com.mmall.controller.portal.CartController">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="90" />
@@ -1757,7 +1762,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/controller/portal/CartController.java</url>
           <line>64</line>
-          <properties class="com.mmall.controller.portal.CartController" method="deleteProduct">
+          <properties class="com.mmall.controller.portal.CartController">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="91" />
@@ -1765,7 +1770,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/controller/portal/CartController.java</url>
           <line>75</line>
-          <properties class="com.mmall.controller.portal.CartController" method="selectAll">
+          <properties class="com.mmall.controller.portal.CartController">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="92" />
@@ -1773,7 +1778,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/controller/portal/CartController.java</url>
           <line>86</line>
-          <properties class="com.mmall.controller.portal.CartController" method="unSelectAll">
+          <properties class="com.mmall.controller.portal.CartController">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="93" />
@@ -1781,7 +1786,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/controller/portal/CartController.java</url>
           <line>97</line>
-          <properties class="com.mmall.controller.portal.CartController" method="select">
+          <properties class="com.mmall.controller.portal.CartController">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="94" />
@@ -1789,7 +1794,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/controller/portal/CartController.java</url>
           <line>108</line>
-          <properties class="com.mmall.controller.portal.CartController" method="unSelect">
+          <properties class="com.mmall.controller.portal.CartController">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="95" />
@@ -1797,7 +1802,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/controller/portal/CartController.java</url>
           <line>119</line>
-          <properties class="com.mmall.controller.portal.CartController" method="getCartProductCount">
+          <properties class="com.mmall.controller.portal.CartController">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="96" />
@@ -1805,7 +1810,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/controller/portal/ShippingController.java</url>
           <line>31</line>
-          <properties class="com.mmall.controller.portal.ShippingController" method="add">
+          <properties class="com.mmall.controller.portal.ShippingController">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="98" />
@@ -1813,7 +1818,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/controller/portal/ShippingController.java</url>
           <line>42</line>
-          <properties class="com.mmall.controller.portal.ShippingController" method="del">
+          <properties class="com.mmall.controller.portal.ShippingController">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="99" />
@@ -1821,7 +1826,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/controller/portal/ShippingController.java</url>
           <line>53</line>
-          <properties class="com.mmall.controller.portal.ShippingController" method="update">
+          <properties class="com.mmall.controller.portal.ShippingController">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="100" />
@@ -1829,7 +1834,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/controller/portal/ShippingController.java</url>
           <line>64</line>
-          <properties class="com.mmall.controller.portal.ShippingController" method="select">
+          <properties class="com.mmall.controller.portal.ShippingController">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="101" />
@@ -1837,7 +1842,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/controller/portal/ShippingController.java</url>
           <line>75</line>
-          <properties class="com.mmall.controller.portal.ShippingController" method="list">
+          <properties class="com.mmall.controller.portal.ShippingController">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="102" />
@@ -1845,7 +1850,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/controller/portal/OrderController.java</url>
           <line>110</line>
-          <properties class="com.mmall.controller.portal.OrderController" method="alipayCallback">
+          <properties class="com.mmall.controller.portal.OrderController">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="106" />
@@ -1853,7 +1858,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/controller/portal/OrderController.java</url>
           <line>153</line>
-          <properties class="com.mmall.controller.portal.OrderController" method="queryOrderPayStatus">
+          <properties class="com.mmall.controller.portal.OrderController">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="107" />
@@ -1861,7 +1866,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/controller/portal/OrderController.java</url>
           <line>98</line>
-          <properties class="com.mmall.controller.portal.OrderController" method="pay">
+          <properties class="com.mmall.controller.portal.OrderController">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="108" />
@@ -1869,7 +1874,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/OrderServiceImpl.java</url>
           <line>472</line>
-          <properties class="com.mmall.service.impl.OrderServiceImpl" method="aliCallback">
+          <properties class="com.mmall.service.impl.OrderServiceImpl">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="110" />
@@ -1877,7 +1882,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/OrderServiceImpl.java</url>
           <line>501</line>
-          <properties class="com.mmall.service.impl.OrderServiceImpl" method="queryOrderPayStatus">
+          <properties class="com.mmall.service.impl.OrderServiceImpl">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="111" />
@@ -1885,7 +1890,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/OrderServiceImpl.java</url>
           <line>345</line>
-          <properties class="com.mmall.service.impl.OrderServiceImpl" method="pay">
+          <properties class="com.mmall.service.impl.OrderServiceImpl">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="112" />
@@ -1893,7 +1898,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/controller/portal/OrderController.java</url>
           <line>84</line>
-          <properties class="com.mmall.controller.portal.OrderController" method="list">
+          <properties class="com.mmall.controller.portal.OrderController">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="113" />
@@ -1901,7 +1906,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/controller/portal/OrderController.java</url>
           <line>73</line>
-          <properties class="com.mmall.controller.portal.OrderController" method="detail">
+          <properties class="com.mmall.controller.portal.OrderController">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="118" />
@@ -1909,7 +1914,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/controller/portal/OrderController.java</url>
           <line>62</line>
-          <properties class="com.mmall.controller.portal.OrderController" method="getOrderCartProduct">
+          <properties class="com.mmall.controller.portal.OrderController">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="120" />
@@ -1917,7 +1922,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/controller/portal/OrderController.java</url>
           <line>51</line>
-          <properties class="com.mmall.controller.portal.OrderController" method="cancel">
+          <properties class="com.mmall.controller.portal.OrderController">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="122" />
@@ -1925,7 +1930,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/controller/portal/OrderController.java</url>
           <line>40</line>
-          <properties class="com.mmall.controller.portal.OrderController" method="create">
+          <properties class="com.mmall.controller.portal.OrderController">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="124" />
@@ -1933,7 +1938,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/OrderServiceImpl.java</url>
           <line>328</line>
-          <properties class="com.mmall.service.impl.OrderServiceImpl" method="assembleOrderVoList">
+          <properties class="com.mmall.service.impl.OrderServiceImpl">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="126" />
@@ -1941,7 +1946,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/OrderServiceImpl.java</url>
           <line>319</line>
-          <properties class="com.mmall.service.impl.OrderServiceImpl" method="getOrderList">
+          <properties class="com.mmall.service.impl.OrderServiceImpl">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="127" />
@@ -1949,7 +1954,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/OrderServiceImpl.java</url>
           <line>309</line>
-          <properties class="com.mmall.service.impl.OrderServiceImpl" method="getOrderDetail">
+          <properties class="com.mmall.service.impl.OrderServiceImpl">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="128" />
@@ -1957,7 +1962,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/OrderServiceImpl.java</url>
           <line>284</line>
-          <properties class="com.mmall.service.impl.OrderServiceImpl" method="getOrderCartProduct">
+          <properties class="com.mmall.service.impl.OrderServiceImpl">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="129" />
@@ -1965,7 +1970,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/OrderServiceImpl.java</url>
           <line>264</line>
-          <properties class="com.mmall.service.impl.OrderServiceImpl" method="cancel">
+          <properties class="com.mmall.service.impl.OrderServiceImpl">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="130" />
@@ -1973,7 +1978,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/OrderServiceImpl.java</url>
           <line>249</line>
-          <properties class="com.mmall.service.impl.OrderServiceImpl" method="assembleOrderItemVo">
+          <properties class="com.mmall.service.impl.OrderServiceImpl">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="131" />
@@ -1981,7 +1986,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/OrderServiceImpl.java</url>
           <line>236</line>
-          <properties class="com.mmall.service.impl.OrderServiceImpl" method="assembleShippingVo">
+          <properties class="com.mmall.service.impl.OrderServiceImpl">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="132" />
@@ -1989,7 +1994,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/OrderServiceImpl.java</url>
           <line>197</line>
-          <properties class="com.mmall.service.impl.OrderServiceImpl" method="assembleOrderVo">
+          <properties class="com.mmall.service.impl.OrderServiceImpl">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="133" />
@@ -1997,7 +2002,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/OrderServiceImpl.java</url>
           <line>191</line>
-          <properties class="com.mmall.service.impl.OrderServiceImpl" method="cleanCart">
+          <properties class="com.mmall.service.impl.OrderServiceImpl">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="134" />
@@ -2005,7 +2010,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/OrderServiceImpl.java</url>
           <line>183</line>
-          <properties class="com.mmall.service.impl.OrderServiceImpl" method="reduceProductStock">
+          <properties class="com.mmall.service.impl.OrderServiceImpl">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="135" />
@@ -2021,7 +2026,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/OrderServiceImpl.java</url>
           <line>158</line>
-          <properties class="com.mmall.service.impl.OrderServiceImpl" method="assembleOrder">
+          <properties class="com.mmall.service.impl.OrderServiceImpl">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="137" />
@@ -2029,7 +2034,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/OrderServiceImpl.java</url>
           <line>150</line>
-          <properties class="com.mmall.service.impl.OrderServiceImpl" method="getOrderTotalPrice">
+          <properties class="com.mmall.service.impl.OrderServiceImpl">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="138" />
@@ -2037,7 +2042,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/OrderServiceImpl.java</url>
           <line>119</line>
-          <properties class="com.mmall.service.impl.OrderServiceImpl" method="getCartOrderItem">
+          <properties class="com.mmall.service.impl.OrderServiceImpl">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="139" />
@@ -2045,7 +2050,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/OrderServiceImpl.java</url>
           <line>80</line>
-          <properties class="com.mmall.service.impl.OrderServiceImpl" method="createOrder">
+          <properties class="com.mmall.service.impl.OrderServiceImpl">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="140" />
@@ -2053,7 +2058,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/OrderServiceImpl.java</url>
           <line>462</line>
-          <properties class="com.mmall.service.impl.OrderServiceImpl" method="dumpResponse">
+          <properties class="com.mmall.service.impl.OrderServiceImpl">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="141" />
@@ -2061,7 +2066,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/OrderServiceImpl.java</url>
           <line>515</line>
-          <properties class="com.mmall.service.impl.OrderServiceImpl" method="manageList">
+          <properties class="com.mmall.service.impl.OrderServiceImpl">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="142" />
@@ -2069,7 +2074,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/OrderServiceImpl.java</url>
           <line>524</line>
-          <properties class="com.mmall.service.impl.OrderServiceImpl" method="manageDetail">
+          <properties class="com.mmall.service.impl.OrderServiceImpl">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="143" />
@@ -2077,7 +2082,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/OrderServiceImpl.java</url>
           <line>548</line>
-          <properties class="com.mmall.service.impl.OrderServiceImpl" method="manageSendGoods">
+          <properties class="com.mmall.service.impl.OrderServiceImpl">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="144" />
@@ -2085,7 +2090,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/OrderServiceImpl.java</url>
           <line>534</line>
-          <properties class="com.mmall.service.impl.OrderServiceImpl" method="manageSearch">
+          <properties class="com.mmall.service.impl.OrderServiceImpl">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="145" />
@@ -2167,10 +2172,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
           <caret line="804" column="11" lean-forward="false" selection-start-line="804" selection-start-column="11" selection-end-line="804" selection-end-column="11" />
-          <folding>
-            <element signature="e#34114#34115#0" expanded="false" />
-            <element signature="e#34170#34171#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2178,7 +2179,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2186,7 +2186,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
           <caret line="167" column="10" lean-forward="false" selection-start-line="167" selection-start-column="10" selection-end-line="167" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2362,7 +2361,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="201">
           <caret line="26" column="28" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="26" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2384,15 +2382,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3258">
           <caret line="181" column="23" lean-forward="false" selection-start-line="181" selection-start-column="23" selection-end-line="181" selection-end-column="23" />
-          <folding>
-            <marker date="1524738213423" expanded="true" signature="1574:1696" ph="select from mmall_order_item" />
-            <marker date="1524738213423" expanded="true" signature="1786:1852" ph="delete from mmall_order_item... " />
-            <marker date="1524738213423" expanded="true" signature="1935:2443" ph="insert into mmall_order_item... " />
-            <marker date="1524738213423" expanded="true" signature="4931:6228" ph="update mmall_order_item... " />
-            <marker date="1524738213423" expanded="true" signature="6325:6881" ph="update mmall_order_item... " />
-            <marker date="1524738213423" expanded="true" signature="6986:7134" ph="SELECT from mmall_order_item" />
-            <marker date="1524738213423" expanded="true" signature="7235:7351" ph="SELECT from mmall_order_item" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2400,7 +2389,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="24" column="9" lean-forward="false" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2408,7 +2396,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2416,14 +2403,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="124" column="0" lean-forward="false" selection-start-line="124" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
-          <folding>
-            <marker date="1523073539534" expanded="true" signature="1603:1722" ph="select from mmall_product" />
-            <marker date="1523073539534" expanded="true" signature="1812:1875" ph="delete from mmall_product... " />
-            <marker date="1523073539534" expanded="true" signature="1956:2461" ph="insert into mmall_product... " />
-            <marker date="1523073539534" expanded="true" signature="5028:6359" ph="update mmall_product... " />
-            <marker date="1523073539534" expanded="true" signature="6454:7000" ph="update mmall_product... " />
-            <marker date="1523073539534" expanded="true" signature="7077:7178" ph="SELECT FROM mmall_product" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2431,7 +2410,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="101" column="5" lean-forward="true" selection-start-line="101" selection-start-column="5" selection-end-line="101" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2446,7 +2424,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
           <caret line="75" column="97" lean-forward="true" selection-start-line="75" selection-start-column="97" selection-end-line="75" selection-end-column="97" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2454,17 +2431,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="263">
           <caret line="222" column="33" lean-forward="true" selection-start-line="222" selection-start-column="33" selection-end-line="222" selection-end-column="33" />
-          <folding>
-            <marker date="1523349134897" expanded="true" signature="1818:1935" ph="select from mmall_order" />
-            <marker date="1523349134897" expanded="true" signature="2025:2086" ph="delete from mmall_order... " />
-            <marker date="1523349134897" expanded="true" signature="2165:2782" ph="insert into mmall_order... " />
-            <marker date="1523349134897" expanded="true" signature="5779:7385" ph="update mmall_order... " />
-            <marker date="1523349134897" expanded="true" signature="7478:8136" ph="update mmall_order... " />
-            <marker date="1523349134897" expanded="true" signature="8247:8399" ph="SELECT from mmall_order" />
-            <marker date="1523349134897" expanded="true" signature="8504:8633" ph="SELECT FROM mmall_order" />
-            <marker date="1523349134897" expanded="true" signature="8736:8879" ph="SELECT from mmall_order" />
-            <marker date="1523349134897" expanded="true" signature="8962:9071" ph="SELECT from mmall_order" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2472,7 +2438,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="371">
           <caret line="27" column="16" lean-forward="false" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2499,7 +2464,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
           <caret line="53" column="16" lean-forward="false" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2507,7 +2471,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="335">
           <caret line="324" column="0" lean-forward="false" selection-start-line="324" selection-start-column="0" selection-end-line="325" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2515,7 +2478,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
           <caret line="61" column="12" lean-forward="false" selection-start-line="61" selection-start-column="12" selection-end-line="61" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2523,7 +2485,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
           <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
