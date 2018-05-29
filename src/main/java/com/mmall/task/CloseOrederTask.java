@@ -58,7 +58,7 @@ public class CloseOrederTask {
     @Scheduled(cron = "0 */1 * * * ?")
     public void closeOrderTaskV3() {
         log.info("关闭订单定时任务启动");
-        long lockTimeout = Long.parseLong(PropertiesUtil.getProperty("lock.timeout", "50000"));
+        long lockTimeout = Long.parseLong(PropertiesUtil.getProperty("lock.timeout", "500000"));
         Long setnxResult = RedisShardedPoolUtil.setnx(Const.REDIS_LOCK.CLOSE_ORDER_TASK_LOCK,
                 String.valueOf(System.currentTimeMillis() + lockTimeout));
         if (setnxResult != null && setnxResult.intValue() == 1) {
@@ -85,6 +85,7 @@ public class CloseOrederTask {
             }
         }
         log.info("关闭订单定时任务结束");
+        log.info("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
     }
 
     private void closeOrder(String lockName) {
